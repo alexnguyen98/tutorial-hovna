@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Diary from "./Diary";
 
-const Home = () => {
-  const [loading, setLoading] = useState(false);
+const Home: React.FC = () => {
+  const [loading, setLoading] = useState<boolean>(false);
 
   useEffect(() => {
     setLoading(true);

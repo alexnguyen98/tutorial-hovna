@@ -1,7 +1,7 @@
 import React from "react";
 import WithLoader from "./WithLoader";
 
-const Diary = () => (
+const Diary: React.FC = () => (
   <div>
     <ul>
       <li>Day 1: I got up</li>

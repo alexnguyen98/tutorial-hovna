@@ -3,6 +3,6 @@ import ReactDOM from "react-dom";
 import "./styles/styles.css";
 import Home from "./components/Home";
 
-const App = () => <Home />;
+const App: React.FC = () => <Home />;
 
-ReactDOM.render(<App loading />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));

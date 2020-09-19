@@ -1,3 +1,7 @@
-- Test
-- Build Pipeline
+TODO:
+
 - TS
+  - TS config // DONE
+- Test
+  - Mocks
+- Build Pipeline

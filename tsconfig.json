@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true, // for VSCode
+    "noEmit": true, // only type checking, let babel handle the rest
+    "strictNullChecks": true,
+    "esModuleInterop": true // allow import syntax
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
