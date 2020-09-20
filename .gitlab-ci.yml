@@ -11,8 +11,11 @@ install:
     - yarn install
   cache:
     paths:
-      - node_modules/
-      - .yarn
+      - yarn
+  artifacts:
+    paths:
+      - node_modules
+
 
 build:
   stage: build
