@@ -1,3 +1,5 @@
+image: node:9.4.0
+
 stages:
   - install
   - build
@@ -7,6 +9,10 @@ install:
   stage: install
   script:
     - yarn install
+  cache:
+    paths:
+      - node_modules/
+      - .yarn
 
 build:
   stage: build
