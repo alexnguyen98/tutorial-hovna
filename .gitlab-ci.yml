@@ -1,19 +1,22 @@
 stages:
-    - install
-    - build
-    - test
+  - install
+  - build
+  - test
 
 install:
-    stage: install
-    script:
-        - yarn install
+  stage: install
+  script:
+    - yarn install
 
 build:
-    stage: build
-    script:
-        - yarn build
+  stage: build
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - dist/
 
 test:
-    stage: test
-    script:
-        - yarn test
+  stage: test
+  script:
+    - yarn test

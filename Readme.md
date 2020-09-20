@@ -1,7 +1,29 @@
-TODO:
+# React custom webpack setup
 
-- TS
-  - TS config // DONE
-- Test
-  - Mocks
-- Build Pipeline
+### Scope
+
+- Webpack config
+- Typescript
+- HOC
+- Tests
+- Mocks
+
+### Scripts
+
+<b>Dev<b>
+
+```
+yarn dev
+```
+
+<b>Build<b>
+
+```
+yarn build
+```
+
+<b>Test<b>
+
+```
+yarn test
+```
