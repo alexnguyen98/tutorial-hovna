@@ -9,8 +9,9 @@
     "declarationMap": true, // for VSCode
     "noEmit": true, // only type checking, let babel handle the rest
     "strictNullChecks": true,
+    "sourceMap": true,
     "esModuleInterop": true // allow import syntax
   },
-  "include": ["src/*"],
+  "include": ["src/**/*.tsx", "src/**/*.ts"],
   "exclude": ["node_modules"]
 }

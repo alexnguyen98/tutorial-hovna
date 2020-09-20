@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Quote from "./Quote";
 import Diary from "./Diary";
 
 const Home: React.FC = () => {
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <nav>Logo</nav>
       <main>
         <h1>Home</h1>
+        <Quote />
         <Diary loading={loading} />
       </main>
       <footer>Footer @applifting2020</footer>
