@@ -1,4 +1,4 @@
-image: node:v12.18.1
+image: node:12.18.1
 
 stages:
   - install
