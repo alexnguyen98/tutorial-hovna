@@ -26,12 +26,16 @@ module.exports = {
       },
     ],
   },
+  // includes the webpack bundle into the index.html
   plugins: [
-    // includes the webpack bundle into the index.html
     new HtmlWebpackPlugin({
       template: __dirname + "/src/public/index.html",
       filename: "index.html",
       inject: "body",
     }),
   ],
+  // dev server options
+  devServer: {
+    port: 8080,
+  },
 };
